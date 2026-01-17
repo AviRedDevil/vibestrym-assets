@@ -1,6 +1,6 @@
 # Vibestrym - The Real Full-stack Twitch clone
 
-This repository contains free assets used by the Vibestrym course — a Real Full-stack Twitch clone built with a NestJS backend, a Next.js frontend, and many more industry standard technologies. The assets here are provided so you can complete the course locally.
+This repository contains free assets used by the [Vibestrym course](https://codewith.shamscorner.com/courses/vibestrym) — a Real Full-stack Twitch clone built with a NestJS backend, a Next.js frontend, and many more industry standard technologies. The assets here are provided so you can complete the course locally.
 
 ## Contents
 
