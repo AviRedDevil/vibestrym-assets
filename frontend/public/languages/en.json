@@ -1,0 +1,829 @@
+{
+  "common": {
+    "liveBadge": {
+      "text": "LIVE"
+    },
+    "confirmDialog": {
+      "cancelButton": "Cancel",
+      "continueButton": "Continue"
+    },
+    "formatDate": {
+      "months": {
+        "january": "january",
+        "february": "february",
+        "march": "march",
+        "april": "april",
+        "may": "may",
+        "june": "june",
+        "july": "july",
+        "august": "august",
+        "september": "september",
+        "october": "october",
+        "november": "november",
+        "december": "december"
+      }
+    },
+    "copyButton": {
+      "successMessage": "Copied to clipboard"
+    },
+    "dataTable": {
+      "notFound": "No data found"
+    },
+    "emptyState": {
+      "heading": "No data available",
+      "description": "There is no data to display at the moment. Please check back later or try a different search."
+    }
+  },
+  "app": {
+    "header": {
+      "logo": {
+        "alt": "Vibestrym Logo",
+        "title": "Vibestrym - Stream your life with joy! Your go-to platform for live events, shows, tutorials, and more.",
+        "slogan": "Stream your life with joy!"
+      },
+      "search": {
+        "placeholder": "Search for streams, events, or users...",
+        "buttonLabel": "Search"
+      },
+      "menu": {
+        "login": "Log in",
+        "register": "Sign up",
+        "profile": {
+          "logout": "Log out",
+          "dashboard": "Dashboard",
+          "channel": "My Channel",
+          "notifications": {
+            "heading": "Notifications",
+            "loading": "Loading...",
+            "empty": "No notifications yet.",
+            "unreadCount": "{count, plural, =1 {unread} other {unreads}}"
+          }
+        }
+      }
+    },
+    "sidebar": {
+      "header": {
+        "expand": "Expand",
+        "collapse": "Collapse",
+        "explore": "Explore"
+      },
+      "userNav": {
+        "home": "Home",
+        "categories": "Categories",
+        "streams": "Streams",
+        "recommended": "Recommended"
+      },
+      "dashboardNav": {
+        "settings": "Settings",
+        "streamKeys": "Stream Keys",
+        "chatSettings": "Chat Settings",
+        "followers": "Followers",
+        "sponsors": "Sponsors",
+        "premium": "Premium",
+        "transactions": "Transactions"
+      },
+      "recommended": {
+        "heading": "Recommendations"
+      }
+    }
+  },
+  "home": {
+    "title": "Welcome to Vibestrym",
+    "description": "Your go-to streaming spot for catching live events, shows, tutorials, funny moments and more easily!",
+    "streamsHeading": "Recommended channels",
+    "categoriesHeading": "Categories you might like"
+  },
+  "categories": {
+    "title": "Categories - Vibestrym",
+    "description": "Explore a wide range of categories on Vibestrym.",
+    "heading": "Categories",
+    "overview": {
+      "heading": "Streams under this category"
+    }
+  },
+  "streams": {
+    "heading": "Streams",
+    "searchHeading": "Search by query",
+    "stream": {
+      "aboutChannel": {
+        "heading": "About",
+        "followersCount": "followers",
+        "noDescription": "No description available"
+      },
+      "sponsors": {
+        "heading": "Channel Sponsors"
+      },
+      "info": {
+        "viewers": "viewers",
+        "offline": "Offline"
+      },
+      "video": {
+        "offline": "is offline",
+        "loading": "Connecting...",
+        "player": {
+          "volume": "Volume",
+          "fullscreen": {
+            "open": "Fullscreen",
+            "exit": "Exit Fullscreen"
+          }
+        }
+      },
+      "settings": {
+        "heading": "Streaming Settings",
+        "thumbnail": {
+          "updateButton": "Update Image",
+          "confirmDialog": {
+            "heading": "Remove Stream Thumbnail",
+            "message": "Are you sure you want to remove the stream thumbnail? This action cannot be undone."
+          },
+          "info": "Supported formats: JPG, JPEG, PNG, or GIF. Max size: 10 MB.",
+          "updateMessage": {
+            "success": "Stream image successfully updated",
+            "error": "Error updating the stream image"
+          },
+          "removeMessage": {
+            "success": "Stream image successfully removed",
+            "error": "Error removing the stream image"
+          }
+        },
+        "info": {
+          "title": {
+            "label": "Title",
+            "placeholder": "Playing God of War",
+            "description": "Enter the title of your stream. It should be short and memorable."
+          },
+          "category": {
+            "label": "Category",
+            "placeholder": "Select a category",
+            "description": "Select the category your content belongs to. This will help viewers find your streams more easily."
+          },
+          "submitButton": "Save Changes",
+          "successMessage": "Stream settings successfully updated",
+          "errorMessage": "Error updating stream settings"
+        },
+        "terminate": {
+          "heading": "Terminate Stream?",
+          "description": "By terminating streams, all your viewers will be disconnected. This action cannot be undone. You can start a new stream later.",
+          "buttonText": "Terminate streams",
+          "confirmDialog": {
+            "heading": "Terminate Stream?",
+            "message": "Are you sure you want to terminate all streams? This action cannot be undone. Your viewers will be disconnected immediately.",
+            "confirmButton": "Terminate"
+          },
+          "successMessage": "Streams terminated successfully",
+          "errorMessage": "Error terminating streams"
+        }
+      },
+      "actions": {
+        "follow": {
+          "unfollowDialog": {
+            "heading": "Unfollow Channel",
+            "message": "Are you sure you want to unfollow this channel? You will no longer receive notifications from this channel and it will disappear from your followed list.",
+            "confirmButton": "Unfollow"
+          },
+          "unfollowButton": "Unfollow",
+          "followButton": "Follow",
+          "followMessage": {
+            "success": "You are now following {channelName}",
+            "error": "Error while following"
+          },
+          "unfollowMessage": {
+            "success": "You no longer follow {channelName}",
+            "error": "Error while unfollowing"
+          }
+        },
+        "support": {
+          "alreadySponsor": "You are already a sponsor",
+          "supportAuthor": "Support",
+          "perMonth": "per month",
+          "choose": "Choose",
+          "errorMessage": "Error while creating payment"
+        },
+        "share": {
+          "heading": "Share"
+        }
+      }
+    },
+    "chat": {
+      "heading": "Chat",
+      "unavailable": "Chat unavailable",
+      "unavailableMessage": "Chat is unavailable while there is no stream on the channel. Please check back later!",
+      "loading": "Connecting...",
+      "info": {
+        "authRequired": "You need to log in to send messages",
+        "chatDisabled": "Chat disabled for this stream",
+        "premiumFollowersOnly": "For sponsors only",
+        "followersOnly": "For followers only"
+      },
+      "sendMessage": {
+        "placeholder": "Send a message",
+        "emojiPlaceholder": "Search",
+        "errorMessage": "Error while sending message."
+      }
+    }
+  },
+  "auth": {
+    "common": {
+      "goBack": "Go back to home"
+    },
+    "register": {
+      "title": "Create your Vibestrym account",
+      "description": "Join our community to start streaming and sharing your favorite moments.",
+      "heading": "Sign up on Vibestrym",
+      "backButtonLabel": "Already got an account? Sign in",
+      "username": {
+        "label": "Username",
+        "description": "You can always change it later."
+      },
+      "email": {
+        "label": "Email",
+        "description": "We might send you important account updates."
+      },
+      "password": {
+        "label": "Password",
+        "description": "Gotta be at least 8 characters long!"
+      },
+      "submitButton": "Sign up",
+      "successAlert": {
+        "title": "Check your inbox!",
+        "description": "We've sent a verification email. If you don't see it, peek in your spam folder."
+      },
+      "errorMessage": "Oops! Something went wrong creating your account.",
+      "socialDivider": "Or continue with",
+      "googleButton": "Login with Google",
+      "loginText": "Don't have an account?",
+      "loginLink": "Log in"
+    },
+    "verify": {
+      "title": "Verify your Vibestrym account",
+      "description": "Almost there! Just verify your email to start streaming.",
+      "errorAlert": {
+        "title": "Verification failed",
+        "description": "We couldn't verify your account. Please try again or contact support."
+      },
+      "successMessage": "Your account has been successfully verified.",
+      "errorMessage": "Error verifying your account. Please try again.",
+      "loginAgain": "Log in again"
+    },
+    "login": {
+      "title": "Log in to Vibestrym",
+      "description": "Welcome back! Log in to continue.",
+      "heading": "Log in to your Vibestrym account",
+      "login": {
+        "label": "Username or Email",
+        "description": "Enter your username or email to log in."
+      },
+      "password": {
+        "label": "Password",
+        "description": "Enter your password to log in."
+      },
+      "forgotPassword": "Forgot your password?",
+      "submitButton": "Log in",
+      "socialDivider": "Or continue with",
+      "googleButton": "Login with Google",
+      "registerText": "Don't have an account?",
+      "registerLink": "Create an account",
+      "pin": {
+        "label": "Enter your PIN",
+        "description": "Please enter the 6-digit PIN sent to your email."
+      },
+      "errorMessage": "Invalid username or password. Please try again."
+    },
+    "resetPassword": {
+      "title": "Reset your Vibestrym password",
+      "heading": "Forgot your password?",
+      "description": "Enter your email to receive a password reset link.",
+      "email": {
+        "label": "Email",
+        "description": "We'll send you a link to reset your password."
+      },
+      "submitButton": "Send reset link",
+      "successAlert": {
+        "title": "Check your inbox!",
+        "description": "We've sent you an email with instructions to reset your password."
+      },
+      "errorMessage": "Error sending reset link. Please try again."
+    },
+    "updatePassword": {
+      "title": "Update your Vibestrym password",
+      "heading": "Set a new password",
+      "description": "Enter your new password to continue.",
+      "password": {
+        "label": "New Password",
+        "description": "Your new password must be at least 8 characters long."
+      },
+      "passwordRepeat": {
+        "label": "Retype Password",
+        "description": "Re-enter your new password to confirm."
+      },
+      "submitButton": "Update Password",
+      "successMessage": "Your password has been successfully updated.",
+      "errorMessage": "Error updating password. Please try again."
+    },
+    "logout": {
+      "title": "Log out from Vibestrym",
+      "description": "By logging out, you will be signed out of your account. If you want to log back in, you will need to enter your credentials again on the login page.",
+      "successAlert": {
+        "title": "Logged out successfully",
+        "description": "You have been logged out from Vibestrym successfully. You can log in again anytime."
+      },
+      "successMessage": "You have been logged out successfully.",
+      "errorMessage": "Error logging out. Please try again.",
+      "loginAgain": "Log in again"
+    },
+    "deactivate": {
+      "title": "Deactivate your account",
+      "description": "By deactivating your account, you will lose access to all your data and settings.",
+      "heading": "Deactivate Account",
+      "backButtonLabel": "Go to Dashboard",
+      "email": {
+        "label": "Email",
+        "description": "Your email that you used during registration"
+      },
+      "password": {
+        "label": "Password",
+        "description": "The password you used during registration"
+      },
+      "pin": {
+        "label": "6-digit code",
+        "description": "A code has been sent to your email. If you enabled Telegram notifications, we sent the code there as well"
+      },
+      "submitButton": "Deactivate",
+      "successMessage": "You have successfully deactivated your account",
+      "errorMessage": "Deactivation error"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard - Vibestrym",
+    "description": "Manage your streams, check analytics, and customize your profile.",
+    "settings": {
+      "title": "Settings - Vibestrym",
+      "description": "Manage your account settings, profile, and preferences.",
+      "header": {
+        "heading": "Settings",
+        "description": "Customize your Vibestrym experience by adjusting your account settings, profile information, and preferences.",
+        "profile": "Profile",
+        "account": "Account",
+        "appearance": "Appearance",
+        "notifications": "Notifications",
+        "sessions": "Sessions"
+      },
+      "profile": {
+        "header": {
+          "heading": "Profile",
+          "description": "Manage your profile information, including your username, display name, and bio."
+        },
+        "avatar": {
+          "heading": "Profile Picture",
+          "updateButton": "Update Profile Picture",
+          "confirmDialog": {
+            "heading": "Remove Profile Picture",
+            "message": "Are you sure you want to remove your profile picture? This action cannot be undone.",
+            "confirmButton": "Remove"
+          },
+          "info": "Supported formats: JPG, JPEG, PNG, WEBP or GIF. Max size: 10 MB.",
+          "updateMessage": {
+            "success": "Profile picture updated successfully.",
+            "error": "Error updating profile picture."
+          },
+          "removeMessage": {
+            "success": "Profile picture removed successfully.",
+            "error": "Error removing profile picture."
+          }
+        },
+        "info": {
+          "heading": "Profile Settings",
+          "username": {
+            "label": "Username",
+            "placeholder": "johndoe",
+            "description": "This is how others will find you on Vibestrym."
+          },
+          "displayName": {
+            "label": "Display Name",
+            "placeholder": "John Doe",
+            "description": "You can use uppercase letters in your display name as you wish."
+          },
+          "bio": {
+            "label": "About Me",
+            "placeholder": "I love programming",
+            "description": "The information about yourself should contain no more than 300 characters."
+          },
+          "successMessage": "Profile successfully updated",
+          "errorMessage": "Error updating profile",
+          "submitButton": "Save Changes"
+        },
+        "socialLinks": {
+          "createForm": {
+            "heading": "Social Media Links",
+            "title": {
+              "label": "Link Title",
+              "placeholder": "Youtube",
+              "description": "The title of the social media link, e.g., YouTube, Twitter, etc."
+            },
+            "url": {
+              "label": "Link URL",
+              "placeholder": "https://www.youtube.com/@shamscorner",
+              "description": "Enter the full URL, e.g., https://www.youtube.com/@shamscorner"
+            },
+            "submitButton": "Add Link",
+            "successMessage": "Social media link successfully added",
+            "errorMessage": "Error adding social media link"
+          },
+          "editForm": {
+            "cancelButton": "Cancel",
+            "submitButton": "Save",
+            "updateMessage": {
+              "success": "Social media link successfully updated",
+              "error": "Error updating social media link"
+            },
+            "removeMessage": {
+              "success": "Social media link successfully removed",
+              "error": "Error removing social media link"
+            },
+            "deleteConfirmDialog": {
+              "heading": "Delete Social Media Link",
+              "message": "Are you sure you want to delete this social media link? This action cannot be undone.",
+              "confirmButton": "Delete",
+              "cancelButton": "Cancel"
+            }
+          },
+          "reorderMessage": {
+            "success": "Order of social media links changed successfully",
+            "error": "Error changing order of social media links"
+          }
+        }
+      },
+      "account": {
+        "header": {
+          "heading": "Account",
+          "description": "Manage your account settings, including email, password, and security options.",
+          "security": {
+            "heading": "Security Settings",
+            "description": "Set up two-factor authentication and auto-renewals for enhanced protection of your data."
+          },
+          "deactivation": {
+            "heading": "Account Deactivation",
+            "description": "After deactivating your account, you will not be able to log in. Your account will be completely deleted after 7 days. Until then, you can contact support to restore access and unlock your account."
+          }
+        },
+        "email": {
+          "heading": "Email Address",
+          "label": "Email",
+          "description": "Enter your new email address.",
+          "submitButton": "Save",
+          "successMessage": "Email successfully updated",
+          "errorMessage": "Error during mail update"
+        },
+        "password": {
+          "heading": "Account Password",
+          "oldPassword": {
+            "label": "Old Password",
+            "description": "Enter your current password to verify your identity before changing your password."
+          },
+          "newPassword": {
+            "label": "New Password",
+            "description": "Your new password must be at least 8 characters long. It is recommended to use special characters for added security."
+          },
+          "submitButton": "Save",
+          "successMessage": "Password successfully updated",
+          "errorMessage": "Error when updating password"
+        },
+        "twoFactor": {
+          "heading": "TOTP Authentication",
+          "description": "Enhance your account security by enabling TOTP authentication. This additional layer of protection requires entering a unique code, making your account less vulnerable to unauthorized access.",
+          "enable": {
+            "trigger": "Enable",
+            "heading": "Enabling TOTP",
+            "qrInstructions": "Scan the QR code to add TOTP",
+            "secretCodeLabel": "Secret Code: ",
+            "pin": {
+              "label": "PIN Code",
+              "description": "Enter the 6-digit code generated by your authentication app."
+            },
+            "submitButton": "Confirm",
+            "successMessage": "TOTP authentication enabled",
+            "errorMessage": "Error verifying the code"
+          },
+          "disable": {
+            "trigger": "Disable",
+            "heading": "Are you sure you want to disable TOTP?",
+            "message": "Disabling TOTP authentication will make your account less secure. Are you sure you want to proceed?",
+            "pin": {
+              "label": "PIN Code",
+              "description": "Enter the 6-digit code generated by your authentication app."
+            },
+            "submitButton": "Disable TOTP",
+            "successMessage": "TOTP authentication has been disabled",
+            "errorMessage": "Error disabling"
+          }
+        },
+        "deactivation": {
+          "heading": "Account Deactivation",
+          "description": "Know before you deactivate your account. Access can only be restored within 7 days. After that, your account will be permanently deleted.",
+          "confirmDialog": {
+            "heading": "Confirm Deactivation",
+            "message": "Are you sure you want to deactivate your account? Access can only be restored within 7 days."
+          },
+          "button": "Deactivate"
+        }
+      },
+      "appearance": {
+        "header": {
+          "heading": "Appearance",
+          "description": "Customize the look and feel of your Vibestrym experience. You can change the theme, language, and accent color of the website."
+        },
+        "theme": {
+          "heading": "Change Theme",
+          "description": "Select a theme for the website. You can choose between light and dark themes.",
+          "successMessage": "You are now using a {theme} theme"
+        },
+        "language": {
+          "heading": "Website Language",
+          "description": "Select a language for the website. The content will be displayed in the selected language.",
+          "selectPlaceholder": "Select a language",
+          "successMessage": "Language settings have been successfully updated"
+        },
+        "color": {
+          "heading": "Theme Color",
+          "description": "Choose a theme color for the website. This color will be used for buttons, links, and other interactive elements."
+        }
+      },
+      "notifications": {
+        "header": {
+          "heading": "Notifications",
+          "description": "Manage your notification settings to control how you receive updates about your account and streams."
+        },
+        "siteNotifications": {
+          "heading": "Site Notifications",
+          "description": "Enable or disable notifications on the site. You will receive notifications about new subscriptions, new streams, password resets, and two-factor authentication codes."
+        },
+        "telegramNotifications": {
+          "heading": "Telegram Notifications",
+          "description": "Enable or disable notifications in Telegram. You will receive notifications about new subscriptions, new streams, password resets, and two-factor authentication codes."
+        },
+        "successMessage": "Notification settings updated successfully",
+        "errorMessage": "Error updating notification settings"
+      },
+      "sessions": {
+        "header": {
+          "heading": "Sessions",
+          "description": "Manage your active sessions to keep your account secure. You can view and delete sessions from devices you no longer use."
+        },
+        "info": {
+          "current": "Current session",
+          "active": "Active sessions",
+          "notFound": "No active sessions found"
+        },
+        "sessionItem": {
+          "deleteButton": "Delete",
+          "detailsButton": "Details",
+          "confirmDialog": {
+            "heading": "Delete Session",
+            "message": "Are you sure you want to delete this session? This action cannot be undone. You will be logged out from this session."
+          },
+          "successMessage": "Session deleted successfully",
+          "errorMessage": "Error deleting session"
+        },
+        "sessionModal": {
+          "heading": "Session Information",
+          "device": "Device:",
+          "location": "Location:",
+          "ipAddress": "IP Address:",
+          "createdAt": "Created At:"
+        }
+      }
+    },
+    "streamKeys": {
+      "title": "Stream Keys - Vibestrym",
+      "description": "Manage your stream keys for live streaming. Generate new keys or view existing ones.",
+      "header": {
+        "heading": "Stream Keys",
+        "description": "Generate a URL and key for streaming."
+      },
+      "url": {
+        "heading": "URL"
+      },
+      "key": {
+        "heading": "Stream Key"
+      },
+      "instructionDialog": {
+        "trigger": "Instruction",
+        "heading": "OBS Setup Guide for Live Streaming",
+        "description": "To start sharing your content with your audience, follow this step-by-step guide to connecting OBS Studio. Just a few steps, and you're ready to go live!",
+        "step1": {
+          "title": "🔑 Step 1: Download OBS Studio and Generate Server URL and Stream Key",
+          "description": "To start streaming, you need two key elements: Server URL and Stream Key. Follow these steps:"
+        },
+        "downloadObs": {
+          "title": "Download OBS Studio",
+          "description": "OBS Studio is a free and open-source software for video recording and live streaming. Download it from the official site.",
+          "linkText": "Download OBS Studio"
+        },
+        "copyKeys": {
+          "title": "Generate Server URL and Stream Key",
+          "description": "To generate your Server URL and Stream Key, go to the Vibestrym dashboard, navigate to the 'Stream Keys' section, and click 'Generate Keys'."
+        },
+        "step2": {
+          "title": "🎛️ Step 2: Set Up OBS Studio",
+          "description": "Now that you have the required data, let’s set up OBS to work with your stream:"
+        },
+        "openObs": {
+          "title": "Open OBS Studio",
+          "description": "If OBS is not installed yet, download it from the official site and install it. Once launched, the main OBS page will open."
+        },
+        "openStreamSettings": {
+          "title": "Open Stream Settings",
+          "description": "In the top menu, click “File” → “Settings.” Go to the “Stream” tab."
+        },
+        "enterDetails": {
+          "title": "Enter Your Details",
+          "description": "In the 'Service' field, select 'Custom...'. Paste the previously copied Server URL into the 'URL' field. In the 'Stream Key' field, enter your Stream Key."
+        },
+        "saveSettings": {
+          "title": "Save Settings",
+          "description": "Click 'Apply' and then 'OK' to save the changes."
+        },
+        "step3": {
+          "title": "🚀 Step 3: Start Streaming",
+          "description": "After successfully setting up OBS, you’re ready to start a live broadcast:"
+        },
+        "startStream": {
+          "title": "Start Streaming",
+          "description": "Return to the main OBS screen and click the 'Start Streaming' button."
+        },
+        "monitorStream": {
+          "title": "Monitor Your Stream",
+          "description": "Your stream will begin in real-time, and you can monitor it both on the platform and in OBS."
+        },
+        "congrats": "✨ Congratulations! You are now ready to share your content with the world through OBS! 🎉",
+        "close": "Close"
+      },
+      "createDialog": {
+        "trigger": "Generate Keys",
+        "heading": "Generate Keys",
+        "ingressTypeLabel": "Connection Type",
+        "ingressTypePlaceholder": "Select connection type",
+        "ingressTypeDescription": "Select RTMP for classic broadcasting or WHIP for WebRTC connections.",
+        "submitButton": "Generate",
+        "successMessage": "Ingress created",
+        "errorMessage": "Error creating ingress"
+      }
+    },
+    "chatSettings": {
+      "title": "Chat Settings - Vibestrym",
+      "description": "Manage your chat settings to control who can send messages during your streams.",
+      "header": {
+        "heading": "Chat Settings",
+        "description": "Here you can manage your chat settings."
+      },
+      "isChatEnabled": {
+        "heading": "Enable Chat",
+        "description": "If you enable this setting, users will be able to send messages in the chat during your streams."
+      },
+      "isChatFollowersOnly": {
+        "heading": "Followers-Only Chat",
+        "description": "If you enable this setting, only your followers will be able to send messages in the chat."
+      },
+      "isChatPremiumFollowersOnly": {
+        "heading": "Premium Followers-Only Chat",
+        "description": "If you enable this setting, only your premium followers will be able to send messages in the chat."
+      },
+      "successMessage": "Chat settings updated successfully",
+      "errorMessage": "Error updating chat settings"
+    },
+    "followers": {
+      "title": "Followers - Vibestrym",
+      "description": "View and manage your followers. You can see who follows you and take actions on their profiles.",
+      "header": {
+        "heading": "Followers",
+        "description": "Manage your followers and view their profiles."
+      },
+      "columns": {
+        "date": "Date",
+        "user": "User",
+        "actions": "Actions",
+        "viewChannel": "View channel"
+      }
+    },
+    "sponsors": {
+      "title": "Sponsors - Vibestrym",
+      "description": "View and manage your sponsors. You can see who sponsors you and take actions on their profiles.",
+      "header": {
+        "heading": "Sponsors",
+        "description": "Here is a list of all your sponsors."
+      },
+      "columns": {
+        "date": "Expiration Date",
+        "user": "User",
+        "plan": "Plan",
+        "actions": "Actions",
+        "viewChannel": "View Channel"
+      }
+    },
+    "plans": {
+      "title": "Premium Plans - Vibestrym",
+      "description": "Create and manage your premium plans to offer exclusive content to your subscribers.",
+      "header": {
+        "heading": "Premium Plans",
+        "description": "Create and manage your premium plans to offer exclusive content to your subscribers."
+      },
+      "alert": {
+        "heading": "Channel verification required",
+        "description": "To create premium plans, your channel must be verified. You only need 10 subscribers to get the checkmark and unlock access to this feature."
+      },
+      "createForm": {
+        "trigger": "Create Plan",
+        "heading": "Create Plan",
+        "title": {
+          "label": "Title",
+          "placeholder": "Premium subscription for the channel",
+          "description": "Enter the name of your plan. This name will be displayed to your subscribers."
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Describe what your plan includes",
+          "description": "Describe what your plan includes. This will help your subscribers understand the benefits of the subscription."
+        },
+        "price": {
+          "label": "Price",
+          "placeholder": "10.00",
+          "description": "Enter the price of your plan. This is the amount your subscribers will pay for the subscription."
+        },
+        "submitButton": "Create",
+        "successMessage": "Premium plan created",
+        "errorMessage": "Error while creating the plan"
+      },
+      "columns": {
+        "date": "Creation Date",
+        "title": "Title",
+        "price": "Price",
+        "actions": "Actions",
+        "remove": {
+          "heading": "Remove",
+          "successMessage": "Plan removed successfully",
+          "errorMessage": "Error while removing the plan",
+          "confirmDialog": {
+            "heading": "Remove Plan",
+            "message": "Are you sure you want to remove this plan? This action cannot be undone.",
+            "confirmButton": "Remove",
+            "cancelButton": "Cancel"
+          }
+        }
+      }
+    },
+    "transactions": {
+      "title": "Transactions - Vibestrym",
+      "description": "View and manage your transactions related to channel sponsorship and premium plans.",
+      "header": {
+        "heading": "Transactions",
+        "description": "Here are the transactions related to channel sponsorship."
+      },
+      "columns": {
+        "date": "Creation Date",
+        "status": "Status",
+        "success": "Successful",
+        "pending": "Pending",
+        "failed": "Failed",
+        "expired": "Expired",
+        "amount": "Amount"
+      }
+    }
+  },
+  "payment": {
+    "success": {
+      "title": "Payment Successful - Vibestrym",
+      "description": "Your payment was successful. You can now access the channel's premium content.",
+      "heading": "Payment Successful!",
+      "details": {
+        "heading": "Sponsorship Details:",
+        "price": "Price:",
+        "duration": "Duration:",
+        "channel": "Channel:"
+      },
+      "congratulations": "You now have access to the channel's premium content!",
+      "backToHome": "Back to Home",
+      "backToChannel": "Back to Channel",
+      "support": "If you have any questions, ask contact@vibestrym.com"
+    },
+    "cancel": {
+      "title": "Payment Cancelled - Vibestrym",
+      "description": "Your payment was cancelled. You can try again later.",
+      "heading": "Payment Cancelled!",
+      "subHeading": "Your payment was not successful. Please try again or contact support if you need any assistance.",
+      "details": {
+        "heading": "Sponsorship Details:",
+        "price": "Price:",
+        "duration": "Duration:",
+        "channel": "Channel:"
+      },
+      "message": "You can try subscribing again later.",
+      "backToHome": "Back to Home",
+      "backToChannel": "Back to Channel",
+      "support": "If you have any questions, ask contact@vibestrym.com"
+    }
+  },
+  "notFound": {
+    "description": "Oops, we couldn't find the page you were looking for.",
+    "backToHome": "Back to Home"
+  }
+}
